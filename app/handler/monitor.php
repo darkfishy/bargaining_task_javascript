@@ -176,13 +176,13 @@ if ($numberOfSPOtherFilled == $NPlayers) {
 </head>
 
 <body>
-<p align=center><a href="setup.php" class="buttonoranje">Go to setup</a></p>
+<p align=center><a href="../../config/setup.php" class="buttonoranje">Go to setup</a></p>
 <p align=center><a href="startexp.php" class="buttonblauw" onclick="return doorgaan()">Start Experiment</a></p>
 
 
 <p id="table"> <?php echo $table; ?> </p>
 
-<p>
+</p>
 
     </br>
     </br>
@@ -190,7 +190,7 @@ if ($numberOfSPOtherFilled == $NPlayers) {
     </br>
 
 
-<p align=center><a href="calcTotalEarnings.php" class="buttonblauw" onclick="return SPFinished()">Calculate Total
+<p align=center><a href="../models/calcTotalEarnings.php" class="buttonblauw" onclick="return SPFinished()">Calculate Total
         Earnings</a></p>
 <p align=center><a class="buttonblauw" onclick="stampTime()">Time Stamp</a></p>
 <!-- <p align=center> 	<a href="download.php" class="buttonoranje"> Download DB</a></p>-->

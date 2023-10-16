@@ -200,7 +200,7 @@ if (confirm("All unsaved data will be lost.\nMake sure that you exported the dat
  <col width=5%>
  <col width=90%>
  <col width=5%>
-<tr><td colspan=3 align=center><a href="monitor.php" class="buttonoranje">Back to monitor</a></td></tr>
+<tr><td colspan=3 align=center><a href="../app/handler/monitor.php" class="buttonoranje">Back to monitor</a></td></tr>
 
 <tr><td></td>
 
@@ -353,11 +353,11 @@ if (confirm("All unsaved data will be lost.\nMake sure that you exported the dat
 
 </form>
 
-<p align=center> <a href="emptytable.php" class="buttonoranje" onclick="return emptycheck()">Empty data tables</a></p>
+<p align=center> <a href="../app/models/emptytable.php" class="buttonoranje" onclick="return emptycheck()">Empty data tables</a></p>
 
 </br>
 </br>
-<form align=center ame="form1" method="post" action="download.php">
+<form align=center ame="form1" method="post" action="../app/handler/download.php">
 	Folder location: <input type="text" name="folder" value="uploads/" name="downloadtext" size=50 AUTOCOMPLETE="OFF">
 	<input name="verzend" type="submit" class="buttonblauw" value="Download Database">
 </form>

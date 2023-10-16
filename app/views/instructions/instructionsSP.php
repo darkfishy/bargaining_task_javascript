@@ -43,7 +43,7 @@ updateTableOne("subjects","ppnr=$ppnr","currentpage",$_SERVER['PHP_SELF']);
     <p align=center> Your earnings will be paid to you privately at the end of today's session.</p>
 
     <br>
-    <p align=center><a href="socialPreferences.php" class="buttonblauw">Continue</a>
+    <p align=center><a href="../socialPreferences.php" class="buttonblauw">Continue</a>
     </td></tr>
   </table>
 

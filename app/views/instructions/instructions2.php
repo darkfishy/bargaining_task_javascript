@@ -29,7 +29,7 @@ $insPrevPage=  instructionsPrevPage($_SERVER['PHP_SELF'], $ppnr, $part);
   <link rel="stylesheet" href="generalConfigInstruct.css">
   <link rel="stylesheet" href="sliderConfig.css">
   <script src="jquery-1.11.3.min.js"></script>
-  <script src="js-webshim/dev/polyfiller.js"></script>
+  <script src="../../../js-webshim/dev/polyfiller.js"></script>
 
 
   <script>
